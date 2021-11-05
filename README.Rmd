@@ -16,32 +16,31 @@ knitr::opts_chunk$set(
 See https://github.com/BCDevExchange/Our-Project-Docs/blob/master/discussion/projectstates.md
 If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badge' Addin. -->
 
-# NA_co-location
+# NA_analysis
+
+This repository presents an analysis that summarizes ecosystem elements across landscape elements for a variety of potential planning areas
+
+
+### Data
+
 
 ### Usage
 
-Describe data being used (links), and how to run. Eg:
-
-There are four core scripts that are required for the analysis, they need to be run in order:
+There are four core scripts that are required for the analysis, a run_all.R script is used to control their execution:
 
 - 01_clean.R
 - 02_analysis.R
 - 03_visualize.R
 - 04_output.R
 
-#### Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-## basic example code
-```
 
 ### Project Status
 
+This project is part of a Provincial conservation assessment being led by the Ministry of Environment and Climate Change Strategy. The analysis is exploratory and will be added to and updated over the coming months. 
+
 ### Getting Help or Reporting an Issue
 
-To report bugs/issues/feature requests, please file an [issue](https://github.com/bcgov/NA_co-location/issues/).
+To report bugs/issues/feature requests, please file an [issue](https://github.com/bcgov/BC_HumanFootprint/issues/).
 
 ### How to Contribute
 
@@ -67,3 +66,6 @@ See the License for the specific language governing permissions and limitations 
 
 ---
 *This project was created using the [bcgovr](https://github.com/bcgov/bcgovr) package.* 
+
+This repository is maintained by [ENVEcosystems](https://github.com/orgs/bcgov/teams/envecosystems/members). 
+
